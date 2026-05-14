@@ -1,0 +1,31 @@
+# 環境・秘密情報
+.env
+.env.local
+*.key
+*.pem
+
+# 一時ファイル
+tmp/
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Google / OpenAI 認証情報
+src/credentials.json
+src/token.json
+
+# Node.js
+node_modules/
