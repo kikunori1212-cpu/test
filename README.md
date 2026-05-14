@@ -8,6 +8,7 @@ CTF に向けた調査、解法メモ、スクリプト、writeup をまとめ�
 - `templates/`: writeup や調査メモのテンプレート
 - `tools/`: 使い回す補助スクリプト
 - `docs/`: 学習メモ、講習資料、参考情報
+- `requirements.txt`: CTFでよく使うPython補助ライブラリ
 
 ## Recommended Flow
 
@@ -23,4 +24,20 @@ CTF に向けた調査、解法メモ、スクリプト、writeup をまとめ�
 - `crypto`
 - `rev`
 - `forensics`
+- `network`
+- `programming`
 - `misc`
+
+## Setup
+
+Windows 環境では、まず導入候補を確認します。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\check_environment.ps1
+```
+
+CTF用ツールをまとめて導入する場合は、内容を確認してから以下を実行します。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\setup_ctf_windows.ps1
+```

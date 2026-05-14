@@ -1,0 +1,12 @@
+beautifulsoup4
+cryptography
+dnspython
+httpx
+lxml
+numpy
+pillow
+pwntools; platform_system != "Windows"
+pycryptodome
+requests
+scapy
+z3-solver

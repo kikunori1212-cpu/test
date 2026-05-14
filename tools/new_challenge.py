@@ -6,7 +6,16 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CATEGORIES = {"web", "pwn", "crypto", "rev", "forensics", "misc"}
+CATEGORIES = {
+    "web",
+    "pwn",
+    "crypto",
+    "rev",
+    "forensics",
+    "network",
+    "programming",
+    "misc",
+}
 
 
 def slugify(value: str) -> str:
