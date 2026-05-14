@@ -19,9 +19,27 @@ Thumbs.db
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
 .venv/
 venv/
+
+# CTF artifacts
+*.pcapng
+*.pcap
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.bin
+*.elf
+core
+
+# Local notes and secrets
+secrets.*
+flag.txt
+flags.txt
 
 # Google / OpenAI 認証情報
 src/credentials.json
