@@ -1,0 +1,6 @@
+[submodule "login-site-playwright"]
+	path = login-site-playwright
+	url = https://github.com/kikunori1212-cpu/login-site-playwright.git
+[submodule "login-site"]
+	path = login-site
+	url = https://github.com/kikunori1212-cpu/login-site.git

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gdrive": {
+      "command": "node",
+      "args": ["C:/Users/Airin/AppData/Roaming/npm/node_modules/@modelcontextprotocol/server-gdrive/dist/index.js"]
+    }
+  }
+}
