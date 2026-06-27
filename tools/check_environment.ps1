@@ -14,7 +14,7 @@ $tools = @(
     @{ Name = "openvpn"; Paths = @("C:\Program Files\OpenVPN\bin\openvpn.exe") },
     @{ Name = "7z"; Paths = @("C:\Program Files\7-Zip\7z.exe") },
     @{ Name = "java"; Paths = @("C:\Program Files\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin\java.exe") },
-    @{ Name = "ghidraRun"; Paths = @() }
+    @{ Name = "ghidraRun"; Paths = @("$env:USERPROFILE\bin\ghidraRun.cmd") }
 )
 
 Write-Host "CTF environment check"

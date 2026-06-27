@@ -33,4 +33,4 @@ Describe the vulnerability, cryptographic weakness, parsing trick, or forensic c
 
 ## Lessons Learned
 
-- 
+-
